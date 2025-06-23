@@ -15,7 +15,7 @@ namespace YourRide.Controllers
         private readonly UserManager<Korisnik> _userManager;
         private readonly ApplicationDbContext _context;
         private readonly IHubContext<NotificationHub> _hubContext;
-        private const string PLACEHOLDER_DRIVER_ID = "59AB7C11-A0E0-4D94-92E9-B2F7C79EB643";
+        private const string PLACEHOLDER_DRIVER_ID = "1feab2ba-dbdc-41a5-b56d-b422326b86ee";
         public Vozac2Controller(UserManager<Korisnik> userManager, ApplicationDbContext context, IHubContext<NotificationHub> hubContext)
         {
             _userManager = userManager;
